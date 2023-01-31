@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en"  color-mode="light">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="style.css"/>
+    <title>GitHub user search app</title>
+</head>
+<body>
+    <header>
+        <div class="head">Devfinder</div>
+        <div class="light-dark mode">
+            <button class="color-mode light--hidden" aria-label="Toggle light mode">Light<img src="img/sol.png"></button>
+            <button class="color-mode dark--hidden" aria-label="Toggle dark mode">Dark<img src="img/lua.png"></button>
+        </div>
+    </header>
+
+    <div class="search">
+        <div class="searchText">
+          <img src="images/icon-search.svg" alt="" />
+          <input type="text" placeholder="Search Github username..." />
+        </div>
+        <div class="searchbtn">Search</div>
+      </div>
+      <div class="resultBody">
+        <div class="githubHead">
+          <div class="mainImg"></div>
+          <div class="githubInfo">
+            <div class="githubUser">Github Username</div>
+            <div class="githubUserName"><a href="">@githubusername</a></div>
+            <div class="githubJoinedDate">Joined Date</div>
+          </div>
+        </div>
+  
+        <div class="githubFact">
+          <div class="githubBio">Github Bio...</div>
+  
+          <div class="githubRepo">
+            <div class="repos">
+              <div class="repoHeading">Repos</div>
+              <div class="repoTotal">0</div>
+            </div>
+            <div class="followers">
+              <div class="followerHeading">Followers</div>
+              <div class="followerTotal">0</div>
+            </div>
+            <div class="following">
+              <div class="followingHeading">Following</div>
+              <div class="followingTotal">0</div>
+            </div>
+          </div>
+  
+          <div class="githubSocial">
+            <div class="location">
+              <img src="img/location.png" alt="" />
+              <p class="locations">Location</p>
+            </div>
+            <div class="twitter">
+              <img src="img/twitter.png" alt="" />
+              <p class="twit">Twitter</p>
+            </div>
+            <div class="website">
+              <img src="img/link.png" alt="" />
+              <p class="websites">Website</p>
+            </div>
+            <div class="comapny">
+              <img src="img/company.png" alt="" />
+              <p class="companies">Company</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="script.js"></script>
+    </body>
+  </html>
